@@ -8,7 +8,7 @@ const Navbar = ({ handleNavMenuOpen }) => {
         <button onClick={handleNavMenuOpen} className="block lg:hidden">
           <RxHamburgerMenu size={24} />
         </button>
-        <h1 className="text-lg font-semibold">Moxey</h1>
+        <h1 className="text-lg font-semibold">StackIntel</h1>
       </div>
       <div className="flex flex-row justify-center items-center gap-x-2">
         <div className="flex flex-row items-center">
