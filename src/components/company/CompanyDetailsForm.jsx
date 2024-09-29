@@ -428,7 +428,7 @@ const CompanyDetailsForm = () => {
             key={index}
             className={`px-4 py-2 font-semibold ${
               activeTab === index
-                ? "border-b-[3px] border-green-500"
+                ? "border-b-[3px] border-custom-blue"
                 : "text-gray-500"
             }`}
             onClick={() => setActiveTab(index)}
