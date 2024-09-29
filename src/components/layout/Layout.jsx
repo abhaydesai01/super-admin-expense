@@ -109,7 +109,7 @@ const Layout = ({ children }) => {
         <aside
           className={
             navOpen
-              ? `absolute h-[100vh] md:h-auto md:flex flex-col justify-start items-start bg-[#2634bb]] w-auto lg:w-[15%] text-white z-[99]`
+              ? `absolute h-[100vh] md:h-auto md:flex flex-col justify-start items-start bg-[#2634bb] w-auto lg:w-[15%] text-white z-[99]`
               : `hidden lg:relative h-[100vh] md:h-auto md:flex flex-col justify-start items-start bg-[#2634bb] w-auto lg:w-[15%] text-white z-[99]`
           }
         >
